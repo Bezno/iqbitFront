@@ -1,0 +1,55 @@
+body {
+    margin: 0, auto;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#avatar img,
+#name,
+#bio {
+    display: block;
+    max-width: 65%;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+}
+
+#avatar img {
+    padding: 4%;
+    border-radius: 15%;
+}
+
+.info {
+    margin: auto, 4%;
+    padding: 4%;
+}
+
+#info {
+    margin: auto;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.repos_btn {
+    display: inline;
+    width: 100%;
+    margin: 1%;
+    align-items: center;
+}
+
+#repos {
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
